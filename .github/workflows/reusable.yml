@@ -1,0 +1,8 @@
+name: reusable workflow
+on: workflow_call
+jobs:
+    output-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: getting outputs
+              run: echo "uploading and getting outputs"
